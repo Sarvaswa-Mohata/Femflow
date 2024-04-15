@@ -1,0 +1,23 @@
+/* Styles for the body in Sample.tsx */
+body {
+    font-family: ;
+    background-color: lightgray;
+}
+
+/* Text color */
+h1 {
+    font-family: 'Rubik-Regular';
+    color: red;
+}
+
+p {
+    font-family: 'Rubik-Regular';
+}
+
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url('../fonts/Rubik-Regular.ttf') format('truetype');
+}
+  
+  
+  

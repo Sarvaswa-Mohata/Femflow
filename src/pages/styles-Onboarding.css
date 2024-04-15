@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url('../fonts/Rubik-Regular.ttf') format('truetype');
+}
+
+.slide {
+    background-color: #A9E7DB;
+    font-family: 'Rubik-Regular';
+    font-size: 20px;
+    color: #575353;
+    text-align: center;
+    height: 100vh;
+}
+
+.img1 {
+    height: 75%;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+.img2 {
+    height: 45%;
+    width: 47%;
+    display: block;
+    margin: 0 auto;
+}
+
+.img3 {
+    height: 80%;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.p3 {
+    padding: 3 20%;
+}
+
+p {
+    padding: 0 15%;
+}
+
+:root {
+    --custom-color: #A194FF;
+    --border-radius: 15px;
+}
+
+.rounded-button {
+    border-radius: var(--border-radius);
+    width: 60%;
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    background-color: var(--custom-color);
+}
+  
+  
